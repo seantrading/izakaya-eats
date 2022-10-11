@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Izakaya Eats</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script lang="text/javascript" src="/static/js/script.js" defer></script>
+</head>
+<body>
+    {% include 'includes/navbar.html' %}
+    <main>
+        {% include 'includes/filter.html' %}
+        <div id="posts" filter="off">
+            {% include 'includes/posts.html' %}
+        </div>
+    </main>
+</body>
+
+</html>

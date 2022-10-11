@@ -1,0 +1,11 @@
+{% for post in posts|reverse %}
+<div class="card">
+    <div class="info">
+        <h3 class="name">{{ post.name }}</h3>
+        <p class="location">{{ post.location }}</p>
+    </div>
+    <img class="image" src="{{ post.image_url }}">
+    <p class="title">{{ post.title }}</p>
+    <p class="text">{{ post.text }}</p>
+</div>
+{% endfor %}

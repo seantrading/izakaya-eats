@@ -1,0 +1,12 @@
+<aside>
+    <div class="filter">
+        <h4><strong>Locations:</strong></h4>
+        <ul class="filter-list">
+            {% for location in locations %}
+            <li>
+                <button onclick="toggleLocation(event)" toggle="false">{{ location }}</button>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</aside>

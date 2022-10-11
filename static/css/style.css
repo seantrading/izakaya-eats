@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans';
+}
+
+main, nav {
+    padding: 10px;
+}
+
+button {
+    font-size: 98%;
+    border: none;
+    background-color: white;
+    padding-left: 0px;
+}
+
+button:hover {
+    color: rgb(99, 99, 99);
+}
+
+h1 {
+    font-family: 'Courier New';
+}
+
+h4 {
+    font-size: 110%;
+}
+
+nav {
+    position: fixed;
+    height: 70px;
+    width: 100vw;
+    background-color: white;
+    left: 0px;
+    top: 0px;
+    padding: 0px 3vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+aside {
+    position: fixed;
+    top: 70px;
+    width: 25vw;
+    height: 100vh;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.filter {
+    margin-top: 20vh;
+    margin-left: 6vw;
+}
+
+.filter-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0px;
+    font-size: 90%;
+}
+
+main {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+#posts {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    align-self: flex-end;
+    padding-right: 4vw;
+    margin-bottom: 4vh;
+}
+
+.card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 120%;
+}
+
+.location {
+    font-size: 90%;
+}
+
+.title {
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    aside {
+        display: none;
+    }
+
+    #posts {
+        width: 100vw;
+        align-items: center;
+        padding-right: 0vw;
+    }
+}
