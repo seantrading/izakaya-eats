@@ -1,6 +1,11 @@
 # Izakaya Eats
 Izakaya Eats is a Flask web application featuring blog posts reviewing some of my favorite restaurants.
 
+## Technologies Used
+- Flask
+- MongoDB Atlas
+- AWS S3
+
 ## Usage
 ### Website
 View the website [here](https://izakaya-eats.herokuapp.com/).
@@ -8,8 +13,8 @@ View the website [here](https://izakaya-eats.herokuapp.com/).
 ### API
 You can use the API to return blog posts in JSON.
 
-#### Resources
-The `GET /posts` endpoint returns all blog posts.
+#### GET /posts
+This endpoint returns all blog posts.
 
 Response body:
 ```
@@ -76,7 +81,7 @@ Response body:
         "image_url": "https://izakaya-eats.s3.us-west-1.amazonaws.com/omakaseyume.jpeg",
         "location": "Chicago, IL",
         "name": "Omakase Yume",
-        "text": "The omakase scene in Chicago has been on the rise in recent years, and Omakase Yume remains as one of the city's finest...",
+        "text": "The omakase scene in Chicago has been on the rise in recent years...",
         "title": "Omakase with Korean influence."
     },
     {
