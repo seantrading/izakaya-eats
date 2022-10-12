@@ -110,6 +110,10 @@ main {
     font-size: 90%;
 }
 
+.image {
+    width: 100%;
+}
+
 .title {
     font-weight: 900;
     margin-bottom: 0px;
