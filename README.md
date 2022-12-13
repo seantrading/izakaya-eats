@@ -5,10 +5,11 @@ Izakaya Eats is a Flask web application featuring blog posts reviewing some of m
 - Flask
 - MongoDB Atlas
 - AWS S3
+- AWS EC2
 
 ## Usage
 ### Website
-View the website [here](34.227.21.95).
+View the website at 34.227.21.95
 
 ### API
 You can use the API to return blog posts in JSON.
