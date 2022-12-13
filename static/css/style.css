@@ -16,6 +16,7 @@ main, nav {
 button {
     font-size: 98%;
     border: none;
+    color: black;
     background-color: white;
     padding-left: 0px;
 }

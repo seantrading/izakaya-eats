@@ -8,7 +8,7 @@ Izakaya Eats is a Flask web application featuring blog posts reviewing some of m
 
 ## Usage
 ### Website
-View the website [here](https://izakaya-eats.herokuapp.com/).
+View the website [here](34.227.21.95).
 
 ### API
 You can use the API to return blog posts in JSON.

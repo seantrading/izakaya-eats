@@ -1,7 +1,10 @@
 from flask import Flask, request, render_template, make_response, jsonify
 from flask_cors import CORS
 from flask_mongoengine import MongoEngine
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 app = Flask(__name__)
 
